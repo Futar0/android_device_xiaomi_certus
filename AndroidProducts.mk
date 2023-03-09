@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_certus.mk
+    $(LOCAL_DIR)/spark_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_certus-user \
-    fluid_certus-userdebug \
-    fluid_certus-eng
+    spark_certus-user \
+    spark_certus-userdebug \
+    spark_certus-eng
