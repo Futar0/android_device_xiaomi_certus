@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/certus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/kscope/config/common_full_phone.mk)
+$(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
