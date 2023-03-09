@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_certus.mk
+    $(LOCAL_DIR)/aicp_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_certus-user \
-    kscope_certus-userdebug \
-    kscope_certus-eng
+    aicp_certus-user \
+    aicp_certus-userdebug \
+    aicp_certus-eng
