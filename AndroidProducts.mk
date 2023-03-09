@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_certus.mk
+    $(LOCAL_DIR)/kscope_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_certus-user \
-    spark_certus-userdebug \
-    spark_certus-eng
+    kscope_certus-user \
+    kscope_certus-userdebug \
+    kscope_certus-eng
