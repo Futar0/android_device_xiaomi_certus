@@ -54,3 +54,28 @@ PRODUCT_PRODUCT_PROPERTIES  += \
    ro.surface_flinger.vsync_sf_event_phase_offset_ns=830000 \
    ro.surface_flinger.present_time_offset_from_vsync_ns=0
 
+# LMKD
+ro.lmk.low=1001 
+ro.lmk.medium=800
+ro.lmk.critical=0  
+ro.lmk.critical_upgrade=false 
+ro.lmk.upgrade_pressure=100 
+ro.lmk.downgrade_pressure=100 
+ro.lmk.kill_heaviest_task=true 
+ro.lmk.kill_timeout_ms=15 
+ro.lmk.use_minfree_levels=true 
+ro.lmk.enhance_batch_kill=true 
+ro.lmk.vmpressure_file_min=80640 
+ro.lmk.use_psi=true 
+ro.lmk.psi_complete_stall_ms=200 
+ro.lmk.thrashing_limit=30 
+ro.lmk.swap_util_max=100
+ro.config.low_ram2g=true
+
+# Iorap
+  iorapd.perfetto.enable=true
+  iorapd.readahead.enable=true
+
+# blurs
+ PRODUCT_PRODUCT_PROPERTIES  += \
+   persist.sys.sf.disable_blurs=1
