@@ -23,6 +23,7 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
+FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := certus
