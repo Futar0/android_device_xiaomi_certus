@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_certus.mk
+    $(LOCAL_DIR)/corvus_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    mokee_certus-user \
-    mokee_certus-userdebug \
-    mokee_certus-eng
+    corvus_certus-user \
+    corvus_certus-userdebug \
+    corvus_certus-eng
