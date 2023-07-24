@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_certus.mk
+    $(LOCAL_DIR)/corvus_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_certus-user \
-    du_certus-userdebug \
-    du_certus-eng
+    corvus_certus-user \
+    corvus_certus-userdebug \
+    corvus_certus-eng
