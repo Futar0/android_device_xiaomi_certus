@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_certus.mk
+    $(LOCAL_DIR)/exthm_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    mokee_certus-user \
-    mokee_certus-userdebug \
-    mokee_certus-eng
+    exthm_certus-user \
+    exthm_certus-userdebug \
+    exthm_certus-eng
