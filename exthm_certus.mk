@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/certus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common.mk)
 
 
 # Boot animaton
