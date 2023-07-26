@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_certus.mk
+    $(LOCAL_DIR)/bliss_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_certus-user \
-    havoc_certus-userdebug \
-    havoc_certus-eng
+    bliss_certus-user \
+    bliss_certus-userdebug \
+    bliss_certus-eng
