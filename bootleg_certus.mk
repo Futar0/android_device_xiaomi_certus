@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/certus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 
 # Boot animaton
@@ -27,7 +27,7 @@ FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := certus
-PRODUCT_NAME := corvus_certus
+PRODUCT_NAME := bootleg_certus
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 6 / Redmi 6A
 PRODUCT_MANUFACTURER := Xiaomi
